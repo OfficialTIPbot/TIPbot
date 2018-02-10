@@ -1,0 +1,76 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>TIPbot - POS Calculator</title>
+    <meta name="author" content="TIPbot" />
+<meta name="description" content="TIPbot - pos reward calculator" />
+<meta name="keywords" content="TIPbot, POS, payout, proof of stake, reward, calculator" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+<link href="img/favicon.ico" rel="shortcut icon">
+
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,100" rel="stylesheet">
+<link href="css/social-font.css" rel="stylesheet">
+
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+<link href="css/shader.css" rel="stylesheet">
+</head>
+<body>
+canvas
+<div id="background-container" class="background-container">
+<div id="background-output" class="background-output"></div>
+<div id="vignette" class="background-vignette"></div>
+<div id="noise" class="background-noise"></div>
+</div>
+
+
+<div class="content">
+<div class="container">
+</div>
+<div class="countdown" id="countdown">
+<div class="container">
+<div class="row">
+<div class="countdown-item col-sm-12 col-xs-12">
+       <div class="countdown-label">TIPBOT</div>
+    <div class="countdown-label">EXPECTED PROOF OF STAKE PAYOUT</div>
+<div class="countdown-number" id="countdown-days">0.00000 TIP</div>
+</div>
+</div>
+<div class="row" style="padding-top:15px;height:25px;">
+<div class="col-md-12">
+</div>
+</div>
+</div>
+</div>
+<div class="container">
+<div class="row">
+<div class="form-and-links-container col-sm-8 col-sm-offset-2">
+<div class="row">
+<form class="subscription-form" id="subscription-form" novalidate>
+<div class="input-group col-xs-10 col-xs-offset-1 col-sm-12 col-sm-offset-0">
+<input type="email" class="subscription-form-email form-control" id="subscription-form-email" name="number" placeholder="Enter your ETH address">
+<span class="input-group-btn">
+<button class="subscription-form-submit btn" id="subscription-form-submit">Calculate</button>
+</span>
+</div>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/placeholders.min.js"></script>
+<script src="js/flat-surface-shader.js"></script>
+<script src="js/web3.min.js"></script>
+<script src="js/bignumber.min.js"></script>
+<script src="js/main.config.js"></script>
+<script src="js/calculator.js"></script>
+</body>
+</html>
+<!-- Localized -->
