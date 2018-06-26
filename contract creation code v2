@@ -291,9 +291,9 @@ contract tipbot is ERC20,tipbotreg,Ownable {
 
     
 
-    // 103 Billion Token Initial Supply
+    // 104 Billion Token Initial Supply
 
-        initialTIPsupply = 103000000000000000000000000000; 
+        initialTIPsupply = 104000000000000000000000000000; 
 
         
 
