@@ -24,11 +24,6 @@ pragma solidity 0.4.21;
 
 
 
-    // Archived Contract - 0x153E140548c6bFca761B6a4a45730BD1401c74D2
-
-    // Archived Contract Date - June 29th 2018, 15:00 GMT
-
-
 
 library SafeMath {
 
